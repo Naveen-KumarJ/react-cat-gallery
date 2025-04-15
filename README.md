@@ -1,12 +1,36 @@
-# React + Vite
+# 🐱 React Cat Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive React application that lets users view and select their favorite cat images. The app is built with Tailwind CSS and React hooks, offering a clean and responsive UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clickable gallery of cat images
+- Responsive layout using Tailwind CSS
+- Smooth image zoom effect on hover
+- Highlight the selected image
+- Clear the selected image with a button
 
-## Expanding the ESLint configuration
+## 🔗 Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Live Preview](https://react-cat-gallery.vercel.app/)
+
+
+## 🛠️ Project Structure
+```
+react-cat-gallery/
+├── public/
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── cat_1.png
+│   │   ├── cat_2.png
+│   │   ├── cat_3.png
+│   │   └── cat_4.png
+│   └── App.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+```
+
+**Made with ❤️ by Naveen Kumar J**
